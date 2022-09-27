@@ -1,2 +1,2 @@
 # HomeworkWEB
-homework1
+Simple website about Codru natural reserve
