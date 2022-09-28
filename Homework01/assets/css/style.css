@@ -94,24 +94,42 @@ dd {
     width: 100%;
     justify-content: space-between;
 }
-.gallery_info {
+.gallery_mainbox {
     width: 100%;
     max-width: 700px;
+}
+.gallery_info {
     display: flex;
-    justify-content:center;
     margin: 60px 0;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 .gallery_title {
-    font-family: 'Roboto', sans-serif;
     font-size: 45px;
 }
-.gallery_text {
-    color: #8d8d8d;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 60px;
+.gallery_image {
+   background: linear-gradient(to right, #323232, #8cb11c);
+    transition: opacity .2s linear;
+  }
+.gallery_image img {
+    display: block;
+}
+.gallery_link {
+    position: absolute;
 }
 
+.gallery_image:hover {
+    opacity: .2;
+}
+.gallery_text {
+    width: 100%;
+    color: #8d8d8d;
+    margin-left: 60px;
+    text-align: justify;
+}
+.gallery_rightbox{
+    transform: translateY(-5%);
+}
 
 
 
