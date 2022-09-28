@@ -14,7 +14,9 @@ dl,
 dd {
   margin: 0;
 }
-
+a {
+    text-decoration: none;
+}
 
 /*---------------------*/
 
@@ -124,13 +126,20 @@ dd {
     display: block;
 }
 .gallery_link {
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     font-size: 35px;
-    color: #b5c191;
-    text-decoration: none;
     opacity: 0;
     transition: opacity .3s linear;
 }
+.gallery_link a {
+    color: #000;
+    transition: color .3s linear;
+}
+.gallery_link a:hover {
+    color: #99ba80;
+}
+
 .gallery_images:hover .gallery_link{
     opacity: 1;
 }
