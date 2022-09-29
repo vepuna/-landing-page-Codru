@@ -214,6 +214,8 @@ a {
 .footer_container {
     display: flex;
     margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer_social{
     font-size: 35px;
@@ -229,6 +231,11 @@ a {
     color: #9e9e9e;
 }
 .footer_author {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.footer_data {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
